@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Groceries</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class=jumbotron>
+        <h1>Enter your grocery list</h1>
+      </div>
+      <form id="groceries-list">
+        <label for="grocery-item">Enter in a grocery item then hit submit</label>
+        <input id="grocery-item" class="form-control" onfocus="this.value=''" type="text">
+        <button type="submit" class=btn id="add-item" >Add Item</button>
+      </form>
+      <button type="button" class=btn id="generate-list">Generate List</button>
+      <div class="list">
+        <ul id="grocery-list">
+          
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
